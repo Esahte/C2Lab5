@@ -46,4 +46,5 @@ def main():
         print(str(v) + " ", end="")
 
 
-main()
+if __name__ == '__main__':
+    main()

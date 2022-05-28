@@ -1,5 +1,5 @@
 def add(x, lst=None):
-    if lst == None:
+    if lst is None:
         lst = []
     if not (x in lst):
         lst.append(x)

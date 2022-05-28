@@ -1,9 +1,10 @@
-import math 
+import math
+
 
 class Circle:
     # Construct a circle object 
-    def __init__(self, radius = 1):
-        self.radius = radius
+    def __init__(self, radius=1):
+        self.__radius = radius
 
     def getRadius(self):
         return self.__radius

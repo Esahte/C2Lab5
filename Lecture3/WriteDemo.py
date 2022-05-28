@@ -5,8 +5,11 @@ def main():
     # Write data to the file
     outputFile.write("George Washington\n")
     outputFile.write("John Adams\n")
-    outputFile.write("Thomas Jefferson") #Write Thomas Jefferson
+    outputFile.write("Thomas Jefferson\n")  # Write Thomas Jefferson
+    outputFile.write('Esahtengang who else but the greatest')
 
-    outputFile.close() # Close the output file
+    outputFile.close()  # Close the output file
 
-main() # Call the main function
+
+if __name__ == '__main__':
+    main()  # Call the main function

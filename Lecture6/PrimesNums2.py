@@ -1,5 +1,6 @@
 from math import sqrt
 
+
 def main():
     n = int(input("Find all prime numbers <= n, enter n: "))
     NUMBER_PER_LINE = 10  # Display 10 per line
@@ -14,7 +15,7 @@ def main():
         isPrime = True  # Is the current number prime?
 
         # Test if number is prime
-        for divisor in range(2, int(sqrt(number)) + 1): 
+        for divisor in range(2, int(sqrt(number)) + 1):
             # If true, number is not prime
             if number % divisor == 0:
                 isPrime = False  # Set isPrime to false          
@@ -28,12 +29,13 @@ def main():
                 # Print the number and advance to the new line
                 print(" " + str(number))
             else:
-                print(" " + str(number), end = "")
+                print(" " + str(number), end="")
 
         # Check if the next number is prime
         number += 1
-    
-    print("\n" + str(count) + " prime(s) less than or equal to " 
-        + str(n))
+
+    print("\n" + str(count) + " prime(s) less than or equal to "
+          + str(n))
+
 
 main()

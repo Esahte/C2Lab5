@@ -20,7 +20,7 @@ class FileEditor:
         operationMenu.add_command(label="Save",
                                   command=self.saveFile)
 
-        # Add a tool bar frame 
+        # Add a toolbar frame
         frame0 = Frame(window)  # Create and add a frame to window
         frame0.grid(row=1, column=1, sticky=W)
 

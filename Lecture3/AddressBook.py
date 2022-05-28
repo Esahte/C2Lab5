@@ -57,14 +57,14 @@ class AddressBook:
         frame4.pack()
         Button(frame4, text="Add",
                command=self.processAdd).grid(row=1, column=1)
-        btFirst = Button(frame4, text="First",
-                         command=self.processFirst).grid(row=1, column=2)
-        btNext = Button(frame4, text="Next",
-                        command=self.processNext).grid(row=1, column=3)
-        btPrevious = Button(frame4, text="Previous", command=
-        self.processPrevious).grid(row=1, column=4)
-        btLast = Button(frame4, text="Last",
-                        command=self.processLast).grid(row=1, column=5)
+        Button(frame4, text="First",
+               command=self.processFirst).grid(row=1, column=2)
+        Button(frame4, text="Next",
+               command=self.processNext).grid(row=1, column=3)
+        Button(frame4, text="Previous",
+               command=self.processPrevious).grid(row=1, column=4)
+        Button(frame4, text="Last",
+               command=self.processLast).grid(row=1, column=5)
 
         self.addressList = self.loadAddress()
         self.current = 0

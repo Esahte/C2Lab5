@@ -2,7 +2,7 @@ class TV:
     def __init__(self):
         self.channel = 1  # Default channel is 1
         self.volumeLevel = 1  # Default volume level is 1
-        self.on = False  # By default TV is off
+        self.on = False  # By default, TV is off
   
     def turnOn(self):
         self.on = True
